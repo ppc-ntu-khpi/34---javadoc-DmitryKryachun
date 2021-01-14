@@ -1,4 +1,9 @@
 package domain;
+/**
+ * subclass of Employee that represents an manager
+ * @see Employee
+ * @author someone
+ */
 public class Manager extends Employee {
 
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
